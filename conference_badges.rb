@@ -1,4 +1,4 @@
-require pry
+
 
 def badge_maker(name)
   "Hello, my name is #{name}."
@@ -25,4 +25,6 @@ def printer
     puts x
   badges_and_room_assignments(array).each do |y|
     puts y
+  end
+printer
 end
