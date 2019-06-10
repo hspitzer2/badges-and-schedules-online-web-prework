@@ -26,3 +26,5 @@ def printer
   badges_and_room_assignments(array).each do |y|
     puts y
 end
+ printer
+end
